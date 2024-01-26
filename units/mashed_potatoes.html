@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mashed potatoes</title>
+    <link rel="icon" href="../images/icon.png" type="image/x-icon">
+
+    <style>
+        .list {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .img-box {
+            min-width: 600px;
+            min-height: 300px;
+
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+
+        .img-box_unit {
+            background-image: url('../images/mashed_potatoes.jpeg');
+        } 
+          
+        p {
+            margin: 0;
+            padding: 0px 10px 5px 10px;
+        }
+
+        .mashed_potatoes {            
+            padding-bottom: 15px;
+        }
+
+        form {
+            padding-bottom: 10px;            
+        }
+
+        button:hover {
+            cursor: pointer;
+            background-color: rgb(228, 87, 115);
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div class="container">
+        <h1>Картофельное пюре</h1>
+        <section class="mashed_potatoes">
+            
+            <article class="mashed_potatoes_preparing">                
+                
+                <h4>Ингридиенты</h4>
+                <div class="list">
+                    <ul>
+                        <li>Картофель (примерно 2.5 кг)</li>
+                        <li>Молоко (750 - 800 мл)</li>                   
+                        <li>Сливочное масло (150 - 200 гр)</li>
+                        <li>Вода питьевая</li>
+                        <li>Соль</li>
+                    </ul>
+                    <div class="img-box img-box_unit">
+                        <!-- Picture -->
+                    </div>
+                </div>
+                
+                <h5><u>Приготовление</u></h5>
+                <div class="preparing">
+                    <p>
+                        Картофель нужно помыть, очистить от кожуры и сложить в кастрюлю. Далее - залить водой (чтобы она покрывала клубни полностью) и довести 
+                        до кипения на сильном огне (перед закипанием воды нужно добавить соль по вкусу). После закипания убавить огонь (до среднего) и варить 
+                        до готовности. После этого нужно слить воду, в варёный горячий картофель частями добавляется масло, порционно вливается горячее молоко, 
+                        при этом картофель переминается специальной толкушкой - <a href="https://ru.wikipedia.org/wiki/Картофелемялка" target="_blank">картофелемялкой</a> 
+                        для пюре.
+                    </p>
+                    <p>
+                        Получается густая однородная гомогенная смесь - картофельное пюре. Даём ей остыть и ставим кастрюлю в холодильник. 
+                    </p>
+                </div>
+            </article>      
+        </section><!-- /mashed_potatoes -->
+
+        <form action="../index.html" target="_parent">
+            <button>Вернуться к списку рецептов</button>
+        </form>
+        
+    </div><!-- /container -->
+</body>
+
+</html>
