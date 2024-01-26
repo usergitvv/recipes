@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Structure</title>
+    <link rel="icon" href="../images/icon.png" type="image/x-icon">
+
+    <style>
+        .list {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .img-box {
+            min-width: 600px;
+            min-height: 300px;
+
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+
+        .img-box_unit {
+            background-image: url('../images/potatoes_and_fish.jpg');
+        } 
+          
+        p {
+            margin: 0;
+            padding: 0px 10px 5px 10px;
+        }
+
+        .potatoes-and-fish {
+            padding-bottom: 15px;
+        }
+
+        form {
+            padding-bottom: 10px;            
+        }
+
+        button:hover {
+            cursor: pointer;
+            background-color: rgb(228, 87, 115);
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div class="container">
+        <h1>Запечёный картофель с минтаем</h1>
+        <section class="potatoes-and-fish">
+            
+            <article class="ingredients-preparing">                
+                
+                <h4>Ингридиенты</h4>
+                <div class="list">
+                    <ul>
+                        <li>Картофель (2.5 кг)</li>
+                        <li>Минтай замороженный (в брикетах, 1.2 - 1.5 кг)</li>                    
+                        <li>Подсолнечное масло</li>
+                        <li>Соль со специями, простая соль</li>
+                        <li>Майонез</li>
+                        <li>Лук (2 луковицы среднего размера)</li>
+                    </ul>
+                    <div class="img-box img-box_unit">
+                        <!-- Picture -->
+                    </div>
+                </div>
+                
+                <h4><u>Приготовление</u></h4>
+                <div class="preparing">
+                    <p>
+                        Картофель моется, чистится и нарезается кольцами (или полукольцами). Минтай размораживается до состояния 
+                        лёгкого подтаивания, после чего режется и слегка обжаривается на сковороде на подсолнечной масле (в процессе 
+                        жарки солится по вкусу).<br>
+                        Далее - берётся протвень, промазывается подсолнечным маслом, на его дно выкладывается порезанный полукольцами 
+                        лук. Поверх лука укладывается картофель (пересыпанный солью со специями), в углы протвеня подливается небольшое количество 
+                        воды (это необходимо во избежание подгорания). И поверх картофеля слоем укладывается обжаренный минтай, который после этого 
+                        покрывается слоем майонеза. Содержимое протвеня укрывается фальгой и ставится в предварительно прогретую 
+                        духовку (180 - 200 &#8451;), огонь - чуть ниже среднего. Время приготовления - примерно один час. 
+                    </p>
+                    <p>
+                        По истечению времени приготовления огонь в духовке гасится, блюдо можно потомить 30 - 60 минут. Далее - 
+                        протвень извлекается из духовки, убирается фальга и содержимое перекладывается в кастрюлю. Кастрюля остывает до приемлемой 
+                        температуры (во избежание излишней температурной нагрузки на холодильное оборудование) и ставится в холодильник.
+                    </p>
+                </div>
+            </article>      
+        </section><!-- /potatoes-and-fish -->
+
+        <form action="../index.html" target="_parent">
+            <button>Вернуться к списку рецептов</button>
+        </form>
+        
+    </div><!-- /container -->
+</body>
+
+</html>
